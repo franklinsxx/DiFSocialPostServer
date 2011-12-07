@@ -32,8 +32,8 @@ public class DiFMsgPostServer {
 	}
 
 	public static void main(String[] arg) {
-		// start server on port 1500
-		new DiFMsgPostServer(1500);
+		// start server on port 1600
+		new DiFMsgPostServer(1600);
 	}
 
 	/** One instance of this thread will run for each client */

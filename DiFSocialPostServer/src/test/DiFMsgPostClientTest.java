@@ -74,6 +74,6 @@ public class DiFMsgPostClientTest {
 	}
 
 	public static void main(String[] arg) {
-		new DiFMsgPostClientTest(1500);
+		new DiFMsgPostClientTest(1600);
 	}
 }
