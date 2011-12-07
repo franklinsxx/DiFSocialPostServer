@@ -64,7 +64,6 @@ public class DiFMsgPostServer {
 			// read a String (which is an object)
 			try {
 				String msg = (String) Sinput.readObject();
-				msg = msg.toUpperCase();
                                 DiFMsgPoster gp = new DiFMsgPoster();
                                 gp.publishGroupMessage(msg);
 				Soutput.writeObject(msg);
